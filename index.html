@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Happy Halloween</title>
+
+</head>
+
+<body>
+  <section>
+    <img src="img/bg.jpg" id="bg">
+    <img src="img/bats.png" id="bats">
+    <img src="img/witch.png" id="witch">
+    <img src="img/castle.png" id="castle">
+    <img src="img/wolf.png" id="wolf">
+  </section>
+
+  <div class="sec">
+    <div class="content">
+      <h2>Happy Halloween - Kagamine Rin</h2>
+
+      <p>
+        Nee mou kuraku narisoudakara <br />
+        Dechatte moii kashira? <br />
+        Chotto ne mahou ni kake rareta <br />
+        Kimi no okashi kara tabechauzo <br />
+      </p>
+
+      <p>
+        Kitto mou kiri ga koku narukara <br />
+        Minna atsumaru kana? <br />
+        Jitto matte amaimono gaman shita <br />
+        Go houbi o hora <br />
+      </p>
+      
+      <p>
+        Hitotsu futatsu kanenone <br />
+        Sawagidasu chiisai obaketachi <br />
+        Kyou wa yurushite kureru no <br />
+        Saa machi ni ikou <br />
+      </p>
+
+      <p>
+        Ding-dong-dang datte happy halloween <br />
+        Itazura shi chau zo ding-dong-dang <br />
+        Acchi mo kocchi mo <br />
+        Trick or treat kyandii wa kurenai no? <br />
+        Datte happy halloween <br />
+        Itaike na rantan panpunkin <br />
+        Tsukareta jakku mo odoru yo asa made <br />
+      </p>
+
+      <p>
+        Datte happy halloween <br />
+        Obake no kabudatte lalala <br />
+        Kyou mo wa machi juu trick or treat <br />
+        Choko mo choudai <br />
+        Datte happy halloween <br />
+        Fushigana sekai e <br />
+        Tsukareta jakkumo utau yo let's trick or treat <br />
+      </p>
+
+      <p>
+        Motto motto hoshii yokubari gousuto <br />
+        Mou nai? Sorenara itazura no ejiki ne <br />
+      </p>
+
+      <p>
+        Kurenai ie nante niwaki ni <br />
+        Toiretto peepaa guruguru shicha e <br />
+        Konnya wa rantantoumo shi terunara amai no choudai <br />
+        Saa let's party night <br />
+      </p>
+
+      <p>
+        Hora datte happy halloween <br />
+        Tokei mo mawaru tick-tack <br />
+        Acchi mo kocchi mo trick or treat <br />
+        Memokuramu panpukinpai <br />
+        Datte happy halloween <br />
+        Dakara yofukashi shi chau janai <br />
+        Tsukareta jakku mo nenai wa asa made <br />
+      </p>
+
+      <p>
+        Datte happy halloween <br />
+        Kyou wa happy halloween <br />
+        Saa let's trick or treat <br />
+        Akai kyandii koro ga shite <br />
+        Asa made netakunai <br />
+      </p>
+
+      <footer id="ANIM">Desenvolvido por - <u>Vulquimar Silva</u></footer>
+      
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+  <script>
+    gsap.to("#witch", {
+      scrollTrigger: {
+        scrub:0.5,
+      },
+      x: 1500,
+      y: 600,
+    })
+
+    gsap.from("#bats", {
+        scrollTrigger: {
+          scrub: 0.5,
+        },
+        x: 40,
+        y: -50,
+      })
+
+  
+    gsap.from("#wolf", {
+      scrollTrigger: {
+        scrub: 0.8,
+      },
+      x: 200,
+      y: 100,
+    })
+
+  </script>
+</body>
+</html>
